@@ -2,25 +2,32 @@
 <html lang="en">
 <head>
     <?php include('inc/head.php') ?>
-   <?php $config  = include('inc/config.php') ?>
+    <?php $config  = include('inc/config.php') ?>
+    <?php include_once('inc/greetings.php') ?>
+
     <title>Include</title>
 </head>
 <body>
-    <div>
         <h1><?= 'Include' ?></h1>
 
-        <table>
-            <thead>
-            <th>Usuário</th>
-            <th>Senha</th>
-            </thead>
-            <tbody>
-            <tr>
-                <td><?= $config['username'] ?></td>
-                <td><?= $config['password'] ?></td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
+        <div>
+            <table>
+                <thead>
+                <th>Usuário</th>
+                <th>Senha</th>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><?= $config['username'] ?></td>
+                    <td><?= $config['password'] ?></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div style="margin-top: 53px">
+            <h2>Olá, <?= $nome ?> </h2>
+
+        </div>
 </body>
 </html>
