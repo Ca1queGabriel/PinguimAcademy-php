@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Funções</h1>
+    <u>
+        <li><a href="exemplar-basico.php"></a></li>
+    </u>
+</body>
+</html>
