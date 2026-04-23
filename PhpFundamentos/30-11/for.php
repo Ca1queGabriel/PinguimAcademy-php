@@ -6,21 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>For positivo</h3>
-    <?php
-        for ($i = 0; $i < 10; $i++){echo "Dessa vez o número é $i <br>";}
-    ?>
+    <div>
+        <h3>For positivo</h3>
+        <?php
+            for ($i = 0; $i < 10; $i++){echo "Dessa vez o número é $i <br>";}
+        ?>
+    </div>
+    <div style="margin-top: 53px">
+        <h3>For negativo</h3>
+        <?php
+            for ($i = 10; $i > 0; $i--){echo "Dessa vez o número é $i <br>";}
+        ?>
+    </div>
+    <div style="margin-top: 53px">
+        <h3>For com Arrays e Índices</h3>
+        <?php
+            $frutas = ['maça', 'banana', 'melancia'];
 
-    <h3>For negativo</h3>
-    <?php
-        for ($i = 10; $i > 0; $i--){echo "Dessa vez o número é $i <br>";}
-    ?>
+            for ($i = 0; $i < count($frutas); $i++){echo "A fruta é $frutas[$i] <br>";}
+        ?>
+    </div>
 
-    <h3>For com Arrays e Índices</h3>
-    <?php
-        $frutas = ['maça', 'banana', 'melancia'];
 
-        for ($i = 0; $i < count($frutas); $i++){echo "A fruta é $frutas[$i] <br>";}
-    ?>
+
 </body>
 </html>

@@ -6,6 +6,7 @@
     <title>Estruturas de Repetição</title>
 </head>
 <body>
+<h1>Estruturas repetitivas</h1>
 <div>
     <ul>
         <li>
@@ -18,7 +19,7 @@
             <a href="while.php">Estrutura while</a>
         </li>
         <li>
-            <a href="while.php">Estrutura while</a>
+            <a href="do-while.php">Estrutura do-while</a>
         </li>
     </ul>
 </div>
