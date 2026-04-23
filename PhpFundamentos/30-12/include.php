@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <?php $nome = null; ?>
     <?php include('inc/head.php') ?>
     <?php $config  = include('inc/config.php') ?>
     <?php include_once('inc/greetings.php') ?>
