@@ -14,5 +14,9 @@
         <h2 style ="margin-top: 50px">Estrutura foreach</h2>
         <a href="foreach.php">Estrutura foreach</a>
     </div>
+    <div>
+        <h2 style ="margin-top: 50px">Estrutura while</h2>
+        <a href="while.php">Estrutura while</a>
+    </div>
 </body>
 </html>
