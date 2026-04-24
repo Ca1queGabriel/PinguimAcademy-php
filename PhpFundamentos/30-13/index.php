@@ -10,6 +10,7 @@
     <ul>
         <li><a href="exemplar-basico.php">Exemplo básico de função</a></li>
         <li><a href="funcao-tipada.php">Exemplo função tipada</a></li>
+        <li><a href="funcao_referencia.php">Exemplo parâmetros por referência</a></li>
     </ul>
 </body>
 </html>
