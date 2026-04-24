@@ -8,7 +8,7 @@
 <body>
     <h1>Funções</h1>
     <ul>
-        <li><a href="exemplar-basico.php">Exemplo básico</a></li>
+        <li><a href="exemplar-basico.php">Exemplo básico de função</a></li>
         <li><a href="funcao-tipada.php">Exemplo função tipada</a></li>
     </ul>
 </body>
